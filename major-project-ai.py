@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
-bike_path='C:/Progs and Concepts/AI and ML intern/Project/images/motorcycle'
+bike_path='C:/Progs and Concepts/AI and ML intern/Project/images/motorcycle' #give your respective system file path here... the same applies for wherever the path is needed
 car_path='C:/Progs and Concepts/AI and ML intern/Project/images/car'
 test_img_path = 'C:/Progs and Concepts/AI and ML intern/Project/predict_images'
 car_test_path = 'C:/Progs and Concepts/AI and ML intern/Project/predict_images/car1.jpg'
@@ -88,5 +88,6 @@ print(img_predict_array.shape)
 plt.imshow(img_test)
 (eval_loss, eval_accuracy) = model.evaluate(x_test,y_cat_test, batch_size=16,verbose=1)
 img_class =  model.predict_classes(test_img)
+print("The image is identified as",img_class)
 #pred_output = model.prex
 #print(pred_output)  
