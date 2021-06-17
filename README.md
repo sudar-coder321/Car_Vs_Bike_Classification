@@ -2,7 +2,7 @@
 
 Classifies between a car and a bike using deep learning algorithm called Convulution Neural Network (CNN) with an accuracy of 96.4%.
 
-## Tech Stack Used:- 
+## Techologies Used:- 
 
 - Python
 - Keras
