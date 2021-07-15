@@ -7,7 +7,7 @@ Classifies between a car and a bike using deep learning algorithm called Convulu
 - Python
 - Keras
 - Tensorflow
-- sklearn(skikit-image)
+- sklearn(scikit-image)
 
 ## Installation:- 
 There is no particular installation just a python >3 is enough :stuck_out_tongue_winking_eye: 
