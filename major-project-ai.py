@@ -8,10 +8,10 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
-bike_path='C:/Progs and Concepts/AI and ML intern/Project/images/motorcycle' #give your respective system file path here... the same applies for wherever the path is needed
-car_path='C:/Progs and Concepts/AI and ML intern/Project/images/car'
-test_img_path = 'C:/Progs and Concepts/AI and ML intern/Project/predict_images'
-car_test_path = 'C:/Progs and Concepts/AI and ML intern/Project/predict_images/car1.jpg'
+bike_path='your file path here' #give your respective system file path here... the same applies for wherever the path is needed
+car_path='your file path here'
+test_img_path = 'your file path here'
+car_test_path = 'your file path here'
 i=1
 car_img_array =  []
 bike_img_array = []
