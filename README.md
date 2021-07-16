@@ -2,6 +2,11 @@
 
    Classifies between a car and a bike using deep learning algorithm called Convolution Neural Network (CNN) with an accuracy of 96.4%.
 
+### Order of Execution 
+
+   1st use the imgdownload.py to download all images (you can play around with the values but 10000-100000 is a reasonable amount)
+   2nd run the displayimages to display the recognized images (optional only for proof)
+   
 ## Description 
    The imgdownload.py downloads images using the bing web image downloader (since google images had to refresh everytime to take new images and took more time... 
    this was a preferrable option :satisfied:)
