@@ -88,6 +88,4 @@ print(img_predict_array.shape)
 plt.imshow(img_test)
 (eval_loss, eval_accuracy) = model.evaluate(x_test,y_cat_test, batch_size=16,verbose=1)
 img_class =  model.predict_classes(test_img)
-print("The image is identified as",img_class)
-#pred_output = model.prex
-#print(pred_output)  
+print("The image is identified as belonging to the class ",img_class)
