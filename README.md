@@ -6,6 +6,7 @@
 
     - 1st use the imgdownload.py to download all images (you can play around with the values but 10000-100000 is a reasonable amount)
     - 2nd run the displayimages to display the recognized images (optional only for proof)
+    - 3rd run the major-project.ai for the classification results
    
 ## Description 
    The imgdownload.py downloads images using the bing web image downloader (since google images had to refresh everytime to take new images and took more time... 
