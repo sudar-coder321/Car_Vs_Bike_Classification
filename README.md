@@ -1,6 +1,6 @@
 # Classification-of-Car-and-Bike--AI
 
-   Classifies between a car and a bike using deep learning algorithm called Convolution Neural Network (CNN) with an accuracy of 96.4%.
+   - Classifies between a car and a bike using deep learning algorithm called Convolution Neural Network (CNN) with an accuracy of 96.4%.
 
 ### Order of Execution 
 
